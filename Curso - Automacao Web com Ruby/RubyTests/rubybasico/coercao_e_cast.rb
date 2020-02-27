@@ -1,0 +1,15 @@
+#Altera o tipo de variavel, fazendo a coerção ou cast
+
+=begin
+COMANDOS 
+TO_I - CONVERTE UMA VARIÁVEL PARA INTEIRO
+TO_F - CONVERTE UMA VARIÁVEL PARA FLOAT
+TO_S - CONVERTE UMA VARIÁVEL PARA STRING
+TO_A - CONVERTE UMA VARIÁVEL PARA ARRAY
+TO_SYM - CONVERTE UMA VARIÁVEL PARA SIMBOLO
+=end
+
+variavel = '1'
+variavel2 = 2
+
+puts variavel.to_i + 2
